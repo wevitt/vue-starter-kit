@@ -1,7 +1,7 @@
-import axios from 'axios'
+import instance from 'axios'
 
-export const axios = axios.create({
+export const axios = instance.create({
   baseURL: 'http://api-bill.click',
-  timeout: 1000,
-  headers: {'X-Custom-Header': 'foobar'}
+  //timeout: 1000,
+  //headers: {'namespace': 'ugm'}
 });
